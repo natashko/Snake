@@ -103,12 +103,8 @@ int main()
 		if (_kbhit())
 		{
 			c = getch();
-			//gotoxy(5, 36);
-			//cout << "kbhit";
 			if (c == 'a' || c == 's' || c == 'd' || c == 'w')
 			{
-				//gotoxy(5, 37);
-				//cout << "getch";
 				M = c;
 			}
 		}
@@ -140,8 +136,7 @@ int main()
 		if (headCoordX < 1 || headCoordX > 57 || headCoordY < 1 || headCoordY > 32) 
 			break;
 
-		//gotoxy(0, 37);
-		//cout << headCoordX << ' ' << headCoordY << endl;
+
 		gotoxy(headCoordX, headCoordY);
 		cout << '*';
 
