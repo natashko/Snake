@@ -1,5 +1,6 @@
 // snake.cpp
 // 2.0
+//new comment
 
 #include "stdafx.h"
 void gotoxy(int, int);
